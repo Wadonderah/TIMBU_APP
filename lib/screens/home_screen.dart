@@ -1,17 +1,13 @@
-// lib/screens/home_screen.dart
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:timbu_app/providers/product_provider.dart';
 import 'package:timbu_app/widgets/product_item.dart';
 import 'cart_screen.dart';
-
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
-    const String imageurl='http://api.timbu.cloud/images/';
     return Scaffold(
       appBar: AppBar(
         title: const Text('Products'),
@@ -19,7 +15,8 @@ class HomeScreen extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.shopping_cart),
             onPressed: () {
-              Navigator.of(context).push(MaterialPageRoute(builder: (context) => const CartScreen()));
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => const CartScreen()));
             },
           )
         ],
