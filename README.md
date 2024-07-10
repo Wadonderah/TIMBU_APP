@@ -1,16 +1,31 @@
 # timbu_app
 
-A new Flutter project.
+This Flutter application fetches and displays products from the Timbu API. Users can view product details, add items to the cart, and proceed to checkout.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Fetch products from the Timbu API
+- Display products in a list with images and details
+- Add products to the cart
+- View items in the cart
+- Remove items from the cart
+- Checkout and view order success
 
-A few resources to get you started if this is your first Flutter project:
+## APK Download
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+You can download the APK for the Shopping App [here](https://appetize.io/app/b_osdcmxsahg6goz2hjbeqgo3v3u )
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Virtualized Demonstration
+
+Use Appetize.io to provide a virtualized demonstration of the release version of your app and ensure it doesn't crash when launching the app. You can access the virtualized demo [here](https://appetize.io/app/b_osdcmxsahg6goz2hjbeqgo3v3u).
+
+t.
+
+## Screenshots
+
+![Home Screen](![tumbi](https://github.com/Wadonderah/TIMBU_APP/assets/149188641/75b9814e-8006-4fb7-b6a8-c4b0f0dcea93)
+
+![Cart Scr![tumbi 1](https://github.com/Wadonderah/TIMBU_APP/assets/149188641/f18f408e-bbe9-486b-ab40-d8a30070898f)
+
+![Order Success Screen![tumbi 2](https://github.com/Wadonderah/TIMBU_APP/assets/149188641/688ade18-0954-4862-94a2-a1d720c9555e)
+
